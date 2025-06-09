@@ -36,6 +36,7 @@ class RestoreSystem extends Command
         $this->removeMediaFiles();
         $this->restoreMediaFiles();
         $this->restoreTemplates();
+        Artisan::call('optimize:clear');
     }
 
     private function restoreDatabase()
