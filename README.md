@@ -44,7 +44,13 @@ cp database/database.sqlite.example database/database.sqlite
 php artisan storage:link
 ```
 
-### 6. Start the development server
+### 6. Setup sample data
+
+```bash
+php artisan app:restore
+```
+
+### 7. Start the development server
 
 ```bash
 php artisan serve
