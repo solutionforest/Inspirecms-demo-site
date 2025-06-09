@@ -2,10 +2,8 @@
 
 namespace App\Providers;
 
-use Illuminate\Support\Facades\Gate;
 use Illuminate\Support\ServiceProvider;
-use SolutionForest\InspireCms\Facades\ModelManifest;
-use SolutionForest\InspireCms\Models\Contracts\User as CmsContractsUser;
+use Illuminate\Support\Facades\URL;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -22,6 +20,8 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
-        //
+        if (env('FORCE_HTTPS', false)) {
+            URL::forceScheme('https');
+        }
     }
 }
