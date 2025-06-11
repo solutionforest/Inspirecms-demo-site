@@ -24,7 +24,7 @@ class MyCmsPanelProvider extends CmsPanelProvider
                     function () {
 
                         $alert = Alert::make('The database will reset every 30 minutes.')
-                            ->type('warn')
+                            ->type('danger')
                             ->withAttributes([
                                 'class' => 'mt-3',
                             ]);
