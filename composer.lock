@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ecaaba1a25a52d6ee1407dbcf946c889",
+    "content-hash": "583ae9f1a23c53d78c2937b99aa43307",
     "packages": [
         {
             "name": "anourvalar/eloquent-serialize",
@@ -5379,17 +5379,17 @@
         },
         {
             "name": "solution-forest/inspirecms-core",
-            "version": "0.0.72",
+            "version": "0.0.74",
             "source": {
                 "type": "git",
                 "url": "git@github.com:solutionforest/Inspirecms-core.git",
-                "reference": "5256078d409d091fedbd7e86e240bb38104b762e"
+                "reference": "69435830880c99ede846cb430f3062401cd10ca1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://satis.solutionforest.net/dist/solution-forest/inspirecms-core/solution-forest-inspirecms-core-5256078d409d091fedbd7e86e240bb38104b762e-zip-a7bd4e.zip",
-                "reference": "5256078d409d091fedbd7e86e240bb38104b762e",
-                "shasum": "6f95e604421eae6a8ad05bd986a5ba0636a937f3"
+                "url": "https://satis.solutionforest.net/dist/solution-forest/inspirecms-core/solution-forest-inspirecms-core-69435830880c99ede846cb430f3062401cd10ca1-zip-29fff0.zip",
+                "reference": "69435830880c99ede846cb430f3062401cd10ca1",
+                "shasum": "10a7d64c2fe1f220fe8e9c414fddb77d27648a70"
             },
             "require": {
                 "filament/spatie-laravel-translatable-plugin": "^3.2",
@@ -5488,21 +5488,21 @@
                     "url": "https://github.com/solutionforest"
                 }
             ],
-            "time": "2025-06-11T02:34:08+00:00"
+            "time": "2025-06-12T05:54:20+00:00"
         },
         {
             "name": "solution-forest/inspirecms-support",
-            "version": "0.0.72",
+            "version": "0.0.74",
             "source": {
                 "type": "git",
                 "url": "git@github.com:solutionforest/inspirecms-support.git",
-                "reference": "ac58eb08c9d75568be4633222f7ea6f29f884ceb"
+                "reference": "bdfe5bec4cfffa7cf8091d65bed42a2c5a417d6a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://satis.solutionforest.net/dist/solution-forest/inspirecms-support/solution-forest-inspirecms-support-ac58eb08c9d75568be4633222f7ea6f29f884ceb-zip-bdb6b4.zip",
-                "reference": "ac58eb08c9d75568be4633222f7ea6f29f884ceb",
-                "shasum": "b9f65cba52c1be5d3a09e7a4be9b22c889611750"
+                "url": "https://satis.solutionforest.net/dist/solution-forest/inspirecms-support/solution-forest-inspirecms-support-bdfe5bec4cfffa7cf8091d65bed42a2c5a417d6a-zip-6a357e.zip",
+                "reference": "bdfe5bec4cfffa7cf8091d65bed42a2c5a417d6a",
+                "shasum": "4e684a6acedd88c121f7e6961776c60adc10623f"
             },
             "require": {
                 "filament/filament": "^3.0",
@@ -5594,7 +5594,7 @@
                     "url": "https://github.com/solutionforest"
                 }
             ],
-            "time": "2025-06-10T10:09:22+00:00"
+            "time": "2025-06-12T05:30:17+00:00"
         },
         {
             "name": "spatie/color",
@@ -9531,16 +9531,16 @@
         },
         {
             "name": "filp/whoops",
-            "version": "2.18.1",
+            "version": "2.18.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/filp/whoops.git",
-                "reference": "8fcc6a862f2e7b94eb4221fd0819ddba3d30ab26"
+                "reference": "89dabca1490bc77dbcab41c2b20968c7e44bf7c3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/filp/whoops/zipball/8fcc6a862f2e7b94eb4221fd0819ddba3d30ab26",
-                "reference": "8fcc6a862f2e7b94eb4221fd0819ddba3d30ab26",
+                "url": "https://api.github.com/repos/filp/whoops/zipball/89dabca1490bc77dbcab41c2b20968c7e44bf7c3",
+                "reference": "89dabca1490bc77dbcab41c2b20968c7e44bf7c3",
                 "shasum": ""
             },
             "require": {
@@ -9590,7 +9590,7 @@
             ],
             "support": {
                 "issues": "https://github.com/filp/whoops/issues",
-                "source": "https://github.com/filp/whoops/tree/2.18.1"
+                "source": "https://github.com/filp/whoops/tree/2.18.2"
             },
             "funding": [
                 {
@@ -9598,7 +9598,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-06-03T18:56:14+00:00"
+            "time": "2025-06-11T20:42:19+00:00"
         },
         {
             "name": "hamcrest/hamcrest-php",
