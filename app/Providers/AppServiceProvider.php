@@ -2,8 +2,9 @@
 
 namespace App\Providers;
 
-use Illuminate\Support\ServiceProvider;
+use App\Console\Commands\RestoreSystem;
 use Illuminate\Support\Facades\URL;
+use Illuminate\Support\ServiceProvider;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -23,5 +24,14 @@ class AppServiceProvider extends ServiceProvider
         if (env('FORCE_HTTPS', false)) {
             URL::forceScheme('https');
         }
+        
+        // Ensure can reach on RestoreSystemCountdown Livewire component
+        $schedule = $this->app[\Illuminate\Console\Scheduling\Schedule::class];
+        $schedule
+            ->command(RestoreSystem::COMMAND_NAME)
+            ->cron("*/" . RestoreSystem::SCHEDULE_IN_MINS . " * * * *",)
+            ->onFailure(function () {
+                // Handle failure…
+            });
     }
 }

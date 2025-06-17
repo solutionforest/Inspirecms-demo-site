@@ -16,7 +16,7 @@ class RestoreSystem extends Command
      *
      * @var string
      */
-    protected $signature = 'app:restore-system';
+    protected $signature = self::COMMAND_NAME;
 
     /**
      * The console command description.
@@ -24,6 +24,10 @@ class RestoreSystem extends Command
      * @var string
      */
     protected $description = 'Restore the system to its initial state.';
+
+    const COMMAND_NAME = 'app:restore-system';
+
+    const SCHEDULE_IN_MINS = 30; // 30 minutes
 
     /**
      * Execute the console command.

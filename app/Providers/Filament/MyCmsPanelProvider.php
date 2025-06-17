@@ -4,8 +4,8 @@ namespace App\Providers\Filament;
 
 use Filament\Support\Facades\FilamentView;
 use Filament\View\PanelsRenderHook;
+use Illuminate\Support\Facades\Blade;
 use SolutionForest\InspireCms\CmsPanelProvider;
-use SolutionForest\InspireCms\View\Components\Alert;
 
 class MyCmsPanelProvider extends CmsPanelProvider
 {
@@ -20,17 +20,8 @@ class MyCmsPanelProvider extends CmsPanelProvider
             ->passwordReset(false)
             ->bootUsing(function () {
                 FilamentView::registerRenderHook(
-                    PanelsRenderHook::PAGE_START,
-                    function () {
-
-                        $alert = Alert::make('The database will reset every 30 minutes.')
-                            ->type('danger')
-                            ->withAttributes([
-                                'class' => 'mt-3',
-                            ]);
-
-                        return $alert->render();
-                    }
+                    name: PanelsRenderHook::PAGE_START,
+                    hook: fn () => Blade::render('@livewire(\'restore-system-countdown\')')
                 );
             });
     }
