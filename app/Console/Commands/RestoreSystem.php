@@ -2,7 +2,6 @@
 
 namespace App\Console\Commands;
 
-use Filament\Widgets\PieChartWidget;
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\File;
