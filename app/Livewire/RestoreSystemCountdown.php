@@ -13,6 +13,10 @@ class RestoreSystemCountdown extends Component
 
     public function mount()
     {
+        // only allow authenticated users
+        if (! auth()->check()) {
+            abort(403);
+        }
         $this->updateCountdown();
     }
 
