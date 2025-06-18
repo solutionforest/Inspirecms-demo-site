@@ -28,7 +28,7 @@ class AppServiceProvider extends ServiceProvider
         // Ensure can reach on RestoreSystemCountdown Livewire component
         $schedule = $this->app[\Illuminate\Console\Scheduling\Schedule::class];
         $schedule
-            ->command(RestoreSystem::COMMAND_NAME)
+            ->command(RestoreSystem::class)
             ->cron("*/" . RestoreSystem::SCHEDULE_IN_MINS . " * * * *",)
             ->onFailure(function () {
                 // Handle failure…
