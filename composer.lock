@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0f3bb828a5e457084ed9170feacefb6e",
+    "content-hash": "0012f9bef5aaa0b6070c8811ed5e802b",
     "packages": [
         {
             "name": "anourvalar/eloquent-serialize",
@@ -128,16 +128,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.345.0",
+            "version": "3.346.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "61b4675bc02db8d7f3e1ba6931dc827c5ae23aa8"
+                "reference": "be313721b8d786e515b5df3e09b1771befbad2c6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/61b4675bc02db8d7f3e1ba6931dc827c5ae23aa8",
-                "reference": "61b4675bc02db8d7f3e1ba6931dc827c5ae23aa8",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/be313721b8d786e515b5df3e09b1771befbad2c6",
+                "reference": "be313721b8d786e515b5df3e09b1771befbad2c6",
                 "shasum": ""
             },
             "require": {
@@ -219,9 +219,9 @@
             "support": {
                 "forum": "https://github.com/aws/aws-sdk-php/discussions",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.345.0"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.346.0"
             },
-            "time": "2025-06-17T18:09:42+00:00"
+            "time": "2025-06-18T18:49:34+00:00"
         },
         {
             "name": "blade-ui-kit/blade-heroicons",
@@ -2531,16 +2531,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v12.19.2",
+            "version": "v12.19.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "97c581cb23bdc3147aab0d5087b19167d329991e"
+                "reference": "4e6ec689ef704bb4bd282f29d9dd658dfb4fb262"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/97c581cb23bdc3147aab0d5087b19167d329991e",
-                "reference": "97c581cb23bdc3147aab0d5087b19167d329991e",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/4e6ec689ef704bb4bd282f29d9dd658dfb4fb262",
+                "reference": "4e6ec689ef704bb4bd282f29d9dd658dfb4fb262",
                 "shasum": ""
             },
             "require": {
@@ -2742,7 +2742,7 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2025-06-17T23:44:27+00:00"
+            "time": "2025-06-18T12:56:23+00:00"
         },
         {
             "name": "laravel/prompts",
@@ -5712,17 +5712,17 @@
         },
         {
             "name": "solution-forest/inspirecms-core",
-            "version": "0.0.82",
+            "version": "0.0.83",
             "source": {
                 "type": "git",
                 "url": "git@github.com:solutionforest/Inspirecms-core.git",
-                "reference": "035a62d6be2a390520edfd25f9b72edd0a084553"
+                "reference": "4df28cd4431605dc17448fe451539932ef269e02"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://satis.solutionforest.net/dist/solution-forest/inspirecms-core/solution-forest-inspirecms-core-035a62d6be2a390520edfd25f9b72edd0a084553-zip-c9f975.zip",
-                "reference": "035a62d6be2a390520edfd25f9b72edd0a084553",
-                "shasum": "e98a634fc08226725ff5c99f11150bdb152a319c"
+                "url": "https://satis.solutionforest.net/dist/solution-forest/inspirecms-core/solution-forest-inspirecms-core-4df28cd4431605dc17448fe451539932ef269e02-zip-66efdf.zip",
+                "reference": "4df28cd4431605dc17448fe451539932ef269e02",
+                "shasum": "c835526e65cb64b13a4fde1323359804e94a9010"
             },
             "require": {
                 "filament/spatie-laravel-translatable-plugin": "^3.2",
@@ -5822,21 +5822,21 @@
                     "url": "https://github.com/solutionforest"
                 }
             ],
-            "time": "2025-06-18T10:31:40+00:00"
+            "time": "2025-06-19T05:30:01+00:00"
         },
         {
             "name": "solution-forest/inspirecms-support",
-            "version": "0.0.82",
+            "version": "0.0.83",
             "source": {
                 "type": "git",
                 "url": "git@github.com:solutionforest/inspirecms-support.git",
-                "reference": "088638e9675bb83390b7fdc1e5e76a5cef62d833"
+                "reference": "7670e5c62d853f705111d977dd421eda9cd77aa9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://satis.solutionforest.net/dist/solution-forest/inspirecms-support/solution-forest-inspirecms-support-088638e9675bb83390b7fdc1e5e76a5cef62d833-zip-ddd0f9.zip",
-                "reference": "088638e9675bb83390b7fdc1e5e76a5cef62d833",
-                "shasum": "f83ca3a2fe1cc11728b49e27ffc582cb8d06c6b4"
+                "url": "https://satis.solutionforest.net/dist/solution-forest/inspirecms-support/solution-forest-inspirecms-support-7670e5c62d853f705111d977dd421eda9cd77aa9-zip-a8b544.zip",
+                "reference": "7670e5c62d853f705111d977dd421eda9cd77aa9",
+                "shasum": "44714aa1bcba8031e64dbc727205c4d510eb7633"
             },
             "require": {
                 "filament/filament": "^3.0",
@@ -5928,7 +5928,7 @@
                     "url": "https://github.com/solutionforest"
                 }
             ],
-            "time": "2025-06-17T09:12:38+00:00"
+            "time": "2025-06-19T05:30:24+00:00"
         },
         {
             "name": "spatie/color",
