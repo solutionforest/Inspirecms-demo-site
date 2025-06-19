@@ -237,7 +237,7 @@ return [
             'logo' => fn () => view('inspirecms::logo'),
             'logo_title' => 'InspireCMS',
             'logo_show_text' => true,
-            'favicon' => fn () => asset('images/favicon.png'),
+            'favicon' => fn () => asset('favicon.ico'),
         ],
 
         'database_notification' => [
