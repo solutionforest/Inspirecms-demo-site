@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "72f31faa750bcea6d7385961ef76bfba",
+    "content-hash": "fd0479c5cbe32ee25c55270866f07933",
     "packages": [
         {
             "name": "anourvalar/eloquent-serialize",
@@ -5712,17 +5712,17 @@
         },
         {
             "name": "solution-forest/inspirecms-core",
-            "version": "0.0.84",
+            "version": "0.0.85",
             "source": {
                 "type": "git",
                 "url": "git@github.com:solutionforest/Inspirecms-core.git",
-                "reference": "bb70d22af5656e940ab19a9588867eedd7678193"
+                "reference": "da138e8a870f04cee949e9ab92c6299653faf802"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://satis.solutionforest.net/dist/solution-forest/inspirecms-core/solution-forest-inspirecms-core-bb70d22af5656e940ab19a9588867eedd7678193-zip-6697ad.zip",
-                "reference": "bb70d22af5656e940ab19a9588867eedd7678193",
-                "shasum": "83ec8fde2dfbf21c54d31cc6ba8da8261b81fced"
+                "url": "https://satis.solutionforest.net/dist/solution-forest/inspirecms-core/solution-forest-inspirecms-core-da138e8a870f04cee949e9ab92c6299653faf802-zip-99fb27.zip",
+                "reference": "da138e8a870f04cee949e9ab92c6299653faf802",
+                "shasum": "368d9375d16cf2b0d39266dc1eb2db434c8134b5"
             },
             "require": {
                 "filament/spatie-laravel-translatable-plugin": "^3.2",
@@ -5822,21 +5822,21 @@
                     "url": "https://github.com/solutionforest"
                 }
             ],
-            "time": "2025-06-19T08:37:18+00:00"
+            "time": "2025-06-19T09:38:33+00:00"
         },
         {
             "name": "solution-forest/inspirecms-support",
-            "version": "0.0.84",
+            "version": "0.0.85",
             "source": {
                 "type": "git",
                 "url": "git@github.com:solutionforest/inspirecms-support.git",
-                "reference": "1636a2085e5610bd3ac0761ff0d3b47f64f014c3"
+                "reference": "ab55bc349256b266ef8ce126d6c2a6893e272892"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://satis.solutionforest.net/dist/solution-forest/inspirecms-support/solution-forest-inspirecms-support-1636a2085e5610bd3ac0761ff0d3b47f64f014c3-zip-8a1e10.zip",
-                "reference": "1636a2085e5610bd3ac0761ff0d3b47f64f014c3",
-                "shasum": "c15d8528152e8fd28dcd90ee8e0d3c726751844b"
+                "url": "https://satis.solutionforest.net/dist/solution-forest/inspirecms-support/solution-forest-inspirecms-support-ab55bc349256b266ef8ce126d6c2a6893e272892-zip-cee308.zip",
+                "reference": "ab55bc349256b266ef8ce126d6c2a6893e272892",
+                "shasum": "d2acf0e2b331f40fe4f528107a7b91f2018662da"
             },
             "require": {
                 "filament/filament": "^3.0",
@@ -5928,7 +5928,7 @@
                     "url": "https://github.com/solutionforest"
                 }
             ],
-            "time": "2025-06-19T05:31:40+00:00"
+            "time": "2025-06-19T08:42:26+00:00"
         },
         {
             "name": "spatie/color",
