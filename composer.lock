@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "fd0479c5cbe32ee25c55270866f07933",
+    "content-hash": "501ff0c0e75b15231961bff5c336da87",
     "packages": [
         {
             "name": "anourvalar/eloquent-serialize",
@@ -5712,17 +5712,17 @@
         },
         {
             "name": "solution-forest/inspirecms-core",
-            "version": "0.0.85",
+            "version": "0.0.86",
             "source": {
                 "type": "git",
                 "url": "git@github.com:solutionforest/Inspirecms-core.git",
-                "reference": "779350d1675795368597d8551dacf2219d4b05ca"
+                "reference": "1cd1d36ad29794a8c38ea517fb9a7a8124f29e28"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://satis.solutionforest.net/dist/solution-forest/inspirecms-core/solution-forest-inspirecms-core-779350d1675795368597d8551dacf2219d4b05ca-zip-e4cf3f.zip",
-                "reference": "779350d1675795368597d8551dacf2219d4b05ca",
-                "shasum": "6acd3715eeaee5c53f8c6d1b9fae2e54c74b33a0"
+                "url": "https://satis.solutionforest.net/dist/solution-forest/inspirecms-core/solution-forest-inspirecms-core-1cd1d36ad29794a8c38ea517fb9a7a8124f29e28-zip-57f641.zip",
+                "reference": "1cd1d36ad29794a8c38ea517fb9a7a8124f29e28",
+                "shasum": "31999ad212ccdcc5b6cb32543c20ea8b312eb10b"
             },
             "require": {
                 "filament/spatie-laravel-translatable-plugin": "^3.2",
@@ -5822,11 +5822,11 @@
                     "url": "https://github.com/solutionforest"
                 }
             ],
-            "time": "2025-06-19T09:39:27+00:00"
+            "time": "2025-06-19T09:51:05+00:00"
         },
         {
             "name": "solution-forest/inspirecms-support",
-            "version": "0.0.85",
+            "version": "0.0.86",
             "source": {
                 "type": "git",
                 "url": "git@github.com:solutionforest/inspirecms-support.git",
