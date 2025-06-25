@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6f85cf2fab56a71ca4e15b1fa85ec261",
+    "content-hash": "fc893a495bb32135e17ab055a41ad487",
     "packages": [
         {
             "name": "anourvalar/eloquent-serialize",
@@ -128,16 +128,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.347.0",
+            "version": "3.347.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "c66a35e650f077caddd7db8d3a1f58b2c2b8c78b"
+                "reference": "ca91caa1d93223f03905e245a268759258ca41a6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/c66a35e650f077caddd7db8d3a1f58b2c2b8c78b",
-                "reference": "c66a35e650f077caddd7db8d3a1f58b2c2b8c78b",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/ca91caa1d93223f03905e245a268759258ca41a6",
+                "reference": "ca91caa1d93223f03905e245a268759258ca41a6",
                 "shasum": ""
             },
             "require": {
@@ -219,9 +219,9 @@
             "support": {
                 "forum": "https://github.com/aws/aws-sdk-php/discussions",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.347.0"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.347.1"
             },
-            "time": "2025-06-23T18:12:15+00:00"
+            "time": "2025-06-24T18:14:42+00:00"
         },
         {
             "name": "blade-ui-kit/blade-heroicons",
@@ -3121,16 +3121,16 @@
         },
         {
             "name": "league/csv",
-            "version": "9.23.0",
+            "version": "9.24.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/csv.git",
-                "reference": "774008ad8a634448e4f8e288905e070e8b317ff3"
+                "reference": "3f11e12ccd7d6dc25729056e7ce386e4084089ea"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/csv/zipball/774008ad8a634448e4f8e288905e070e8b317ff3",
-                "reference": "774008ad8a634448e4f8e288905e070e8b317ff3",
+                "url": "https://api.github.com/repos/thephpleague/csv/zipball/3f11e12ccd7d6dc25729056e7ce386e4084089ea",
+                "reference": "3f11e12ccd7d6dc25729056e7ce386e4084089ea",
                 "shasum": ""
             },
             "require": {
@@ -3140,14 +3140,14 @@
             "require-dev": {
                 "ext-dom": "*",
                 "ext-xdebug": "*",
-                "friendsofphp/php-cs-fixer": "^3.69.0",
-                "phpbench/phpbench": "^1.4.0",
-                "phpstan/phpstan": "^1.12.18",
+                "friendsofphp/php-cs-fixer": "^3.75.0",
+                "phpbench/phpbench": "^1.4.1",
+                "phpstan/phpstan": "^1.12.27",
                 "phpstan/phpstan-deprecation-rules": "^1.2.1",
                 "phpstan/phpstan-phpunit": "^1.4.2",
                 "phpstan/phpstan-strict-rules": "^1.6.2",
-                "phpunit/phpunit": "^10.5.16 || ^11.5.7",
-                "symfony/var-dumper": "^6.4.8 || ^7.2.3"
+                "phpunit/phpunit": "^10.5.16 || ^11.5.22",
+                "symfony/var-dumper": "^6.4.8 || ^7.3.0"
             },
             "suggest": {
                 "ext-dom": "Required to use the XMLConverter and the HTMLConverter classes",
@@ -3208,7 +3208,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-03-28T06:52:04+00:00"
+            "time": "2025-06-24T19:54:25+00:00"
         },
         {
             "name": "league/flysystem",
@@ -5642,17 +5642,17 @@
         },
         {
             "name": "solution-forest/inspirecms-core",
-            "version": "0.0.92",
+            "version": "0.0.93",
             "source": {
                 "type": "git",
                 "url": "git@github.com:solutionforest/Inspirecms-core.git",
-                "reference": "a625566c9639348059628bbf4cfd00d496d53ec6"
+                "reference": "d32d5f69bbcbc65040d67d431e292eb45aa2d341"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://satis.solutionforest.net/dist/solution-forest/inspirecms-core/solution-forest-inspirecms-core-a625566c9639348059628bbf4cfd00d496d53ec6-zip-337423.zip",
-                "reference": "a625566c9639348059628bbf4cfd00d496d53ec6",
-                "shasum": "22c69853f039f3ff5146934bf356eaae86fc6701"
+                "url": "https://satis.solutionforest.net/dist/solution-forest/inspirecms-core/solution-forest-inspirecms-core-d32d5f69bbcbc65040d67d431e292eb45aa2d341-zip-8e3874.zip",
+                "reference": "d32d5f69bbcbc65040d67d431e292eb45aa2d341",
+                "shasum": "c6a43e0e1726259e2490f4df52e476c19d140505"
             },
             "require": {
                 "filament/spatie-laravel-translatable-plugin": "^3.2",
@@ -5751,21 +5751,21 @@
                     "url": "https://github.com/solutionforest"
                 }
             ],
-            "time": "2025-06-24T06:18:41+00:00"
+            "time": "2025-06-25T03:06:04+00:00"
         },
         {
             "name": "solution-forest/inspirecms-support",
-            "version": "0.0.92",
+            "version": "0.0.93",
             "source": {
                 "type": "git",
                 "url": "git@github.com:solutionforest/inspirecms-support.git",
-                "reference": "f1ac5f5cc99f2d7f0a895e7de50f79225b5b7e34"
+                "reference": "d9a1d37f23568b1314cdb3ede80ad50089750748"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://satis.solutionforest.net/dist/solution-forest/inspirecms-support/solution-forest-inspirecms-support-f1ac5f5cc99f2d7f0a895e7de50f79225b5b7e34-zip-d03512.zip",
-                "reference": "f1ac5f5cc99f2d7f0a895e7de50f79225b5b7e34",
-                "shasum": "6e2d1904fa2bc0a5f31eb1cf4183e070964ecd55"
+                "url": "https://satis.solutionforest.net/dist/solution-forest/inspirecms-support/solution-forest-inspirecms-support-d9a1d37f23568b1314cdb3ede80ad50089750748-zip-c971a6.zip",
+                "reference": "d9a1d37f23568b1314cdb3ede80ad50089750748",
+                "shasum": "0e8a2abf018d1de932d94a1cda30e836032166b2"
             },
             "require": {
                 "filament/filament": "^3.0",
@@ -5857,7 +5857,7 @@
                     "url": "https://github.com/solutionforest"
                 }
             ],
-            "time": "2025-06-24T06:57:55+00:00"
+            "time": "2025-06-24T07:00:09+00:00"
         },
         {
             "name": "spatie/color",
@@ -10327,16 +10327,16 @@
         },
         {
             "name": "nunomaduro/collision",
-            "version": "v8.8.1",
+            "version": "v8.8.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nunomaduro/collision.git",
-                "reference": "44ccb82e3e21efb5446748d2a3c81a030ac22bd5"
+                "reference": "60207965f9b7b7a4ce15a0f75d57f9dadb105bdb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nunomaduro/collision/zipball/44ccb82e3e21efb5446748d2a3c81a030ac22bd5",
-                "reference": "44ccb82e3e21efb5446748d2a3c81a030ac22bd5",
+                "url": "https://api.github.com/repos/nunomaduro/collision/zipball/60207965f9b7b7a4ce15a0f75d57f9dadb105bdb",
+                "reference": "60207965f9b7b7a4ce15a0f75d57f9dadb105bdb",
                 "shasum": ""
             },
             "require": {
@@ -10422,7 +10422,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2025-06-11T01:04:21+00:00"
+            "time": "2025-06-25T02:12:12+00:00"
         },
         {
             "name": "pestphp/pest",

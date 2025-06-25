@@ -447,6 +447,12 @@ return [
         'segment_provider' => DefaultSegmentProvider::class,
         'preview_provider' => DefaultPreviewProvider::class,
         'slug_generator' => DefaultSlugGenerator::class,
+        'fallback_seo' => [
+            'title' => env('APP_NAME', 'Home'),
+            'description' => null,
+            'keywords' => null,
+            'image' => null,
+        ],
     ],
 
     'sitemap' => [
