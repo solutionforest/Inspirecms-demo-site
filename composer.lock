@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "230a60a64f7ae6b631a23cdb05745110",
+    "content-hash": "2f63603532fa8599c9776379aa1552da",
     "packages": [
         {
             "name": "anourvalar/eloquent-serialize",
@@ -128,16 +128,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.347.1",
+            "version": "3.347.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "ca91caa1d93223f03905e245a268759258ca41a6"
+                "reference": "34dca6ffe2c307c5a617c6412efdc559b5e89af8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/ca91caa1d93223f03905e245a268759258ca41a6",
-                "reference": "ca91caa1d93223f03905e245a268759258ca41a6",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/34dca6ffe2c307c5a617c6412efdc559b5e89af8",
+                "reference": "34dca6ffe2c307c5a617c6412efdc559b5e89af8",
                 "shasum": ""
             },
             "require": {
@@ -219,9 +219,9 @@
             "support": {
                 "forum": "https://github.com/aws/aws-sdk-php/discussions",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.347.1"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.347.2"
             },
-            "time": "2025-06-24T18:14:42+00:00"
+            "time": "2025-06-25T18:12:42+00:00"
         },
         {
             "name": "blade-ui-kit/blade-heroicons",
@@ -3121,16 +3121,16 @@
         },
         {
             "name": "league/csv",
-            "version": "9.24.0",
+            "version": "9.24.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/csv.git",
-                "reference": "3f11e12ccd7d6dc25729056e7ce386e4084089ea"
+                "reference": "e0221a3f16aa2a823047d59fab5809d552e29bc8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/csv/zipball/3f11e12ccd7d6dc25729056e7ce386e4084089ea",
-                "reference": "3f11e12ccd7d6dc25729056e7ce386e4084089ea",
+                "url": "https://api.github.com/repos/thephpleague/csv/zipball/e0221a3f16aa2a823047d59fab5809d552e29bc8",
+                "reference": "e0221a3f16aa2a823047d59fab5809d552e29bc8",
                 "shasum": ""
             },
             "require": {
@@ -3208,20 +3208,20 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-06-24T19:54:25+00:00"
+            "time": "2025-06-25T14:53:51+00:00"
         },
         {
             "name": "league/flysystem",
-            "version": "3.29.1",
+            "version": "3.30.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/flysystem.git",
-                "reference": "edc1bb7c86fab0776c3287dbd19b5fa278347319"
+                "reference": "2203e3151755d874bb2943649dae1eb8533ac93e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/edc1bb7c86fab0776c3287dbd19b5fa278347319",
-                "reference": "edc1bb7c86fab0776c3287dbd19b5fa278347319",
+                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/2203e3151755d874bb2943649dae1eb8533ac93e",
+                "reference": "2203e3151755d874bb2943649dae1eb8533ac93e",
                 "shasum": ""
             },
             "require": {
@@ -3245,13 +3245,13 @@
                 "composer/semver": "^3.0",
                 "ext-fileinfo": "*",
                 "ext-ftp": "*",
-                "ext-mongodb": "^1.3",
+                "ext-mongodb": "^1.3|^2",
                 "ext-zip": "*",
                 "friendsofphp/php-cs-fixer": "^3.5",
                 "google/cloud-storage": "^1.23",
                 "guzzlehttp/psr7": "^2.6",
                 "microsoft/azure-storage-blob": "^1.1",
-                "mongodb/mongodb": "^1.2",
+                "mongodb/mongodb": "^1.2|^2",
                 "phpseclib/phpseclib": "^3.0.36",
                 "phpstan/phpstan": "^1.10",
                 "phpunit/phpunit": "^9.5.11|^10.0",
@@ -3289,9 +3289,9 @@
             ],
             "support": {
                 "issues": "https://github.com/thephpleague/flysystem/issues",
-                "source": "https://github.com/thephpleague/flysystem/tree/3.29.1"
+                "source": "https://github.com/thephpleague/flysystem/tree/3.30.0"
             },
-            "time": "2024-10-08T08:58:34+00:00"
+            "time": "2025-06-25T13:29:59+00:00"
         },
         {
             "name": "league/flysystem-aws-s3-v3",
@@ -3351,16 +3351,16 @@
         },
         {
             "name": "league/flysystem-local",
-            "version": "3.29.0",
+            "version": "3.30.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/flysystem-local.git",
-                "reference": "e0e8d52ce4b2ed154148453d321e97c8e931bd27"
+                "reference": "6691915f77c7fb69adfb87dcd550052dc184ee10"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/flysystem-local/zipball/e0e8d52ce4b2ed154148453d321e97c8e931bd27",
-                "reference": "e0e8d52ce4b2ed154148453d321e97c8e931bd27",
+                "url": "https://api.github.com/repos/thephpleague/flysystem-local/zipball/6691915f77c7fb69adfb87dcd550052dc184ee10",
+                "reference": "6691915f77c7fb69adfb87dcd550052dc184ee10",
                 "shasum": ""
             },
             "require": {
@@ -3394,9 +3394,9 @@
                 "local"
             ],
             "support": {
-                "source": "https://github.com/thephpleague/flysystem-local/tree/3.29.0"
+                "source": "https://github.com/thephpleague/flysystem-local/tree/3.30.0"
             },
-            "time": "2024-08-09T21:24:39+00:00"
+            "time": "2025-05-21T10:34:19+00:00"
         },
         {
             "name": "league/mime-type-detection",
@@ -5409,21 +5409,20 @@
         },
         {
             "name": "ramsey/uuid",
-            "version": "4.8.1",
+            "version": "4.9.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ramsey/uuid.git",
-                "reference": "fdf4dd4e2ff1813111bd0ad58d7a1ddbb5b56c28"
+                "reference": "4e0e23cc785f0724a0e838279a9eb03f28b092a0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ramsey/uuid/zipball/fdf4dd4e2ff1813111bd0ad58d7a1ddbb5b56c28",
-                "reference": "fdf4dd4e2ff1813111bd0ad58d7a1ddbb5b56c28",
+                "url": "https://api.github.com/repos/ramsey/uuid/zipball/4e0e23cc785f0724a0e838279a9eb03f28b092a0",
+                "reference": "4e0e23cc785f0724a0e838279a9eb03f28b092a0",
                 "shasum": ""
             },
             "require": {
                 "brick/math": "^0.8.8 || ^0.9 || ^0.10 || ^0.11 || ^0.12 || ^0.13",
-                "ext-json": "*",
                 "php": "^8.0",
                 "ramsey/collection": "^1.2 || ^2.0"
             },
@@ -5482,9 +5481,9 @@
             ],
             "support": {
                 "issues": "https://github.com/ramsey/uuid/issues",
-                "source": "https://github.com/ramsey/uuid/tree/4.8.1"
+                "source": "https://github.com/ramsey/uuid/tree/4.9.0"
             },
-            "time": "2025-06-01T06:28:46+00:00"
+            "time": "2025-06-25T14:20:11+00:00"
         },
         {
             "name": "ryangjchandler/blade-capture-directive",
@@ -5642,17 +5641,17 @@
         },
         {
             "name": "solution-forest/inspirecms-core",
-            "version": "0.0.95",
+            "version": "0.0.96",
             "source": {
                 "type": "git",
                 "url": "git@github.com:solutionforest/Inspirecms-core.git",
-                "reference": "dd3ecc4206d6041447106252ea1d1c8356851d05"
+                "reference": "4f02859796fcc5d4164e7f37da83c6b6b01ac3d8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://satis.solutionforest.net/dist/solution-forest/inspirecms-core/solution-forest-inspirecms-core-dd3ecc4206d6041447106252ea1d1c8356851d05-zip-72718f.zip",
-                "reference": "dd3ecc4206d6041447106252ea1d1c8356851d05",
-                "shasum": "7efe7554575cf2baeacabd69a03664d5757910e0"
+                "url": "https://satis.solutionforest.net/dist/solution-forest/inspirecms-core/solution-forest-inspirecms-core-4f02859796fcc5d4164e7f37da83c6b6b01ac3d8-zip-28dc75.zip",
+                "reference": "4f02859796fcc5d4164e7f37da83c6b6b01ac3d8",
+                "shasum": "9ef86d6c179b5327bfd72303bc5b3167281751b4"
             },
             "require": {
                 "filament/spatie-laravel-translatable-plugin": "^3.2",
@@ -5751,21 +5750,21 @@
                     "url": "https://github.com/solutionforest"
                 }
             ],
-            "time": "2025-06-25T06:43:27+00:00"
+            "time": "2025-06-25T07:09:58+00:00"
         },
         {
             "name": "solution-forest/inspirecms-support",
-            "version": "0.0.95",
+            "version": "0.0.96",
             "source": {
                 "type": "git",
                 "url": "git@github.com:solutionforest/inspirecms-support.git",
-                "reference": "b280be3bd80fe710d7924b6199c53026067377e7"
+                "reference": "ef29b523cc10c5584097ef8b4ef9db48c0c4a6f1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://satis.solutionforest.net/dist/solution-forest/inspirecms-support/solution-forest-inspirecms-support-b280be3bd80fe710d7924b6199c53026067377e7-zip-cff7e8.zip",
-                "reference": "b280be3bd80fe710d7924b6199c53026067377e7",
-                "shasum": "7752471f63f59cfb55df2a939da782a983e3f64e"
+                "url": "https://satis.solutionforest.net/dist/solution-forest/inspirecms-support/solution-forest-inspirecms-support-ef29b523cc10c5584097ef8b4ef9db48c0c4a6f1-zip-d796e6.zip",
+                "reference": "ef29b523cc10c5584097ef8b4ef9db48c0c4a6f1",
+                "shasum": "5a575e751b4a702acc6cda794914e6aa5602b5f2"
             },
             "require": {
                 "filament/filament": "^3.0",
@@ -5857,7 +5856,7 @@
                     "url": "https://github.com/solutionforest"
                 }
             ],
-            "time": "2025-06-25T05:18:20+00:00"
+            "time": "2025-06-26T08:32:12+00:00"
         },
         {
             "name": "spatie/color",
