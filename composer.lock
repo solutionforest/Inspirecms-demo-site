@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e9d3aaf96592cccc5b7182073c4da813",
+    "content-hash": "794a61af95b576b81764aa42c9510f67",
     "packages": [
         {
             "name": "anourvalar/eloquent-serialize",
@@ -5641,16 +5641,16 @@
         },
         {
             "name": "solution-forest/inspirecms-core",
-            "version": "0.0.106",
+            "version": "0.0.107",
             "source": {
                 "type": "git",
                 "url": "https://github.com/solutionforest/Inspirecms-core.git",
-                "reference": "c606ad05b653b08e5006916fa48b571dcd7b1e18"
+                "reference": "1dc33cd71334af8e7bdee4c7e33888dc3d55cf14"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/solutionforest/Inspirecms-core/zipball/c606ad05b653b08e5006916fa48b571dcd7b1e18",
-                "reference": "c606ad05b653b08e5006916fa48b571dcd7b1e18",
+                "url": "https://api.github.com/repos/solutionforest/Inspirecms-core/zipball/1dc33cd71334af8e7bdee4c7e33888dc3d55cf14",
+                "reference": "1dc33cd71334af8e7bdee4c7e33888dc3d55cf14",
                 "shasum": ""
             },
             "require": {
@@ -5725,20 +5725,20 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-07-04T11:27:32+00:00"
+            "time": "2025-07-07T03:48:17+00:00"
         },
         {
             "name": "solution-forest/inspirecms-support",
-            "version": "0.0.106",
+            "version": "0.0.107",
             "source": {
                 "type": "git",
                 "url": "https://github.com/solutionforest/inspirecms-support.git",
-                "reference": "fa676d90044b72ab564c3d7bc0192f205846546f"
+                "reference": "6af43c67a6a56e390e3f31e654e3b1173cacdb60"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/solutionforest/inspirecms-support/zipball/fa676d90044b72ab564c3d7bc0192f205846546f",
-                "reference": "fa676d90044b72ab564c3d7bc0192f205846546f",
+                "url": "https://api.github.com/repos/solutionforest/inspirecms-support/zipball/6af43c67a6a56e390e3f31e654e3b1173cacdb60",
+                "reference": "6af43c67a6a56e390e3f31e654e3b1173cacdb60",
                 "shasum": ""
             },
             "require": {
@@ -5809,7 +5809,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-07-04T08:57:31+00:00"
+            "time": "2025-07-04T11:28:53+00:00"
         },
         {
             "name": "spatie/color",
@@ -10222,16 +10222,16 @@
         },
         {
             "name": "myclabs/deep-copy",
-            "version": "1.13.1",
+            "version": "1.13.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/myclabs/DeepCopy.git",
-                "reference": "1720ddd719e16cf0db4eb1c6eca108031636d46c"
+                "reference": "faed855a7b5f4d4637717c2b3863e277116beb36"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/myclabs/DeepCopy/zipball/1720ddd719e16cf0db4eb1c6eca108031636d46c",
-                "reference": "1720ddd719e16cf0db4eb1c6eca108031636d46c",
+                "url": "https://api.github.com/repos/myclabs/DeepCopy/zipball/faed855a7b5f4d4637717c2b3863e277116beb36",
+                "reference": "faed855a7b5f4d4637717c2b3863e277116beb36",
                 "shasum": ""
             },
             "require": {
@@ -10270,7 +10270,7 @@
             ],
             "support": {
                 "issues": "https://github.com/myclabs/DeepCopy/issues",
-                "source": "https://github.com/myclabs/DeepCopy/tree/1.13.1"
+                "source": "https://github.com/myclabs/DeepCopy/tree/1.13.3"
             },
             "funding": [
                 {
@@ -10278,7 +10278,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2025-04-29T12:36:36+00:00"
+            "time": "2025-07-05T12:25:42+00:00"
         },
         {
             "name": "nunomaduro/collision",
