@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b24bd501f6417afc00408a281a9823b6",
+    "content-hash": "dcc8d002f8c39890b422533c9dbf1b9e",
     "packages": [
         {
             "name": "anourvalar/eloquent-serialize",
@@ -5641,16 +5641,16 @@
         },
         {
             "name": "solution-forest/inspirecms-core",
-            "version": "0.0.108",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/solutionforest/Inspirecms-core.git",
-                "reference": "c9bfdb8934d1148388beb0f9064a48b3cd407fda"
+                "reference": "31bdf6bf339979df25fa20f960e56d669b86db7f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/solutionforest/Inspirecms-core/zipball/c9bfdb8934d1148388beb0f9064a48b3cd407fda",
-                "reference": "c9bfdb8934d1148388beb0f9064a48b3cd407fda",
+                "url": "https://api.github.com/repos/solutionforest/Inspirecms-core/zipball/31bdf6bf339979df25fa20f960e56d669b86db7f",
+                "reference": "31bdf6bf339979df25fa20f960e56d669b86db7f",
                 "shasum": ""
             },
             "require": {
@@ -5706,7 +5706,7 @@
                     "role": "Developer"
                 }
             ],
-            "description": "This is my package inspirecms-core",
+            "description": "InspireCMS is a flexible, un-opinionated content engine for Laravel, built on Filament. Visually model any content structure, empower editors with a modern UI, and render everything using standard Blade templates. Features include live preview, granular user roles, SEO tools, effortless media management, and a powerful Blueprint Builder.",
             "homepage": "https://github.com/solutionforest/inspirecms-core",
             "keywords": [
                 "cms",
@@ -5725,20 +5725,20 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-07-07T08:20:34+00:00"
+            "time": "2025-07-08T06:54:23+00:00"
         },
         {
             "name": "solution-forest/inspirecms-support",
-            "version": "0.0.108",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/solutionforest/inspirecms-support.git",
-                "reference": "33312c5bc9dc364457921c3ee3aa8aeb84e108eb"
+                "reference": "9d24e8451ca289e37e73b50af0557e6c621a5f26"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/solutionforest/inspirecms-support/zipball/33312c5bc9dc364457921c3ee3aa8aeb84e108eb",
-                "reference": "33312c5bc9dc364457921c3ee3aa8aeb84e108eb",
+                "url": "https://api.github.com/repos/solutionforest/inspirecms-support/zipball/9d24e8451ca289e37e73b50af0557e6c621a5f26",
+                "reference": "9d24e8451ca289e37e73b50af0557e6c621a5f26",
                 "shasum": ""
             },
             "require": {
@@ -5792,7 +5792,7 @@
                     "role": "Developer"
                 }
             ],
-            "description": "This is my package inspirecms-support",
+            "description": "This is InspireCMS Support Library",
             "homepage": "https://github.com/solutionforest/inspirecms-support",
             "keywords": [
                 "inspirecms-support",
@@ -5809,7 +5809,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-07-08T04:02:23+00:00"
+            "time": "2025-07-08T06:51:08+00:00"
         },
         {
             "name": "spatie/color",
