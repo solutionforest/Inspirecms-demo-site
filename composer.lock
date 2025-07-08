@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "794a61af95b576b81764aa42c9510f67",
+    "content-hash": "b24bd501f6417afc00408a281a9823b6",
     "packages": [
         {
             "name": "anourvalar/eloquent-serialize",
@@ -4418,16 +4418,16 @@
         },
         {
             "name": "openspout/openspout",
-            "version": "v4.30.0",
+            "version": "v4.30.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/openspout/openspout.git",
-                "reference": "df9b0f4d229c37c3caa5a9252a6ad8a94efb0fb5"
+                "reference": "4550fc0dbf01aff86d12691f8a7f6ce22d2b2edc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/openspout/openspout/zipball/df9b0f4d229c37c3caa5a9252a6ad8a94efb0fb5",
-                "reference": "df9b0f4d229c37c3caa5a9252a6ad8a94efb0fb5",
+                "url": "https://api.github.com/repos/openspout/openspout/zipball/4550fc0dbf01aff86d12691f8a7f6ce22d2b2edc",
+                "reference": "4550fc0dbf01aff86d12691f8a7f6ce22d2b2edc",
                 "shasum": ""
             },
             "require": {
@@ -4441,13 +4441,13 @@
             },
             "require-dev": {
                 "ext-zlib": "*",
-                "friendsofphp/php-cs-fixer": "^3.75.0",
-                "infection/infection": "^0.29.14",
+                "friendsofphp/php-cs-fixer": "^3.80.0",
+                "infection/infection": "^0.30.1",
                 "phpbench/phpbench": "^1.4.1",
-                "phpstan/phpstan": "^2.1.16",
+                "phpstan/phpstan": "^2.1.17",
                 "phpstan/phpstan-phpunit": "^2.0.6",
                 "phpstan/phpstan-strict-rules": "^2.0.4",
-                "phpunit/phpunit": "^12.1.5"
+                "phpunit/phpunit": "^12.2.6"
             },
             "suggest": {
                 "ext-iconv": "To handle non UTF-8 CSV files (if \"php-mbstring\" is not already installed or is too limited)",
@@ -4495,7 +4495,7 @@
             ],
             "support": {
                 "issues": "https://github.com/openspout/openspout/issues",
-                "source": "https://github.com/openspout/openspout/tree/v4.30.0"
+                "source": "https://github.com/openspout/openspout/tree/v4.30.1"
             },
             "funding": [
                 {
@@ -4507,7 +4507,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-05-20T12:33:06+00:00"
+            "time": "2025-07-07T06:15:55+00:00"
         },
         {
             "name": "pboivin/filament-peek",
@@ -5641,16 +5641,16 @@
         },
         {
             "name": "solution-forest/inspirecms-core",
-            "version": "0.0.107",
+            "version": "0.0.108",
             "source": {
                 "type": "git",
                 "url": "https://github.com/solutionforest/Inspirecms-core.git",
-                "reference": "1dc33cd71334af8e7bdee4c7e33888dc3d55cf14"
+                "reference": "c9bfdb8934d1148388beb0f9064a48b3cd407fda"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/solutionforest/Inspirecms-core/zipball/1dc33cd71334af8e7bdee4c7e33888dc3d55cf14",
-                "reference": "1dc33cd71334af8e7bdee4c7e33888dc3d55cf14",
+                "url": "https://api.github.com/repos/solutionforest/Inspirecms-core/zipball/c9bfdb8934d1148388beb0f9064a48b3cd407fda",
+                "reference": "c9bfdb8934d1148388beb0f9064a48b3cd407fda",
                 "shasum": ""
             },
             "require": {
@@ -5725,20 +5725,20 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-07-07T03:48:17+00:00"
+            "time": "2025-07-07T08:20:34+00:00"
         },
         {
             "name": "solution-forest/inspirecms-support",
-            "version": "0.0.107",
+            "version": "0.0.108",
             "source": {
                 "type": "git",
                 "url": "https://github.com/solutionforest/inspirecms-support.git",
-                "reference": "6af43c67a6a56e390e3f31e654e3b1173cacdb60"
+                "reference": "33312c5bc9dc364457921c3ee3aa8aeb84e108eb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/solutionforest/inspirecms-support/zipball/6af43c67a6a56e390e3f31e654e3b1173cacdb60",
-                "reference": "6af43c67a6a56e390e3f31e654e3b1173cacdb60",
+                "url": "https://api.github.com/repos/solutionforest/inspirecms-support/zipball/33312c5bc9dc364457921c3ee3aa8aeb84e108eb",
+                "reference": "33312c5bc9dc364457921c3ee3aa8aeb84e108eb",
                 "shasum": ""
             },
             "require": {
@@ -5809,7 +5809,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-07-04T11:28:53+00:00"
+            "time": "2025-07-08T04:02:23+00:00"
         },
         {
             "name": "spatie/color",
