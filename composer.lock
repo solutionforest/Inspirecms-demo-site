@@ -5641,16 +5641,16 @@
         },
         {
             "name": "solution-forest/inspirecms-core",
-            "version": "1.0.0",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/solutionforest/Inspirecms-core.git",
-                "reference": "31bdf6bf339979df25fa20f960e56d669b86db7f"
+                "reference": "039879e71f57b2d519737b6150c5081df709b514"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/solutionforest/Inspirecms-core/zipball/31bdf6bf339979df25fa20f960e56d669b86db7f",
-                "reference": "31bdf6bf339979df25fa20f960e56d669b86db7f",
+                "url": "https://api.github.com/repos/solutionforest/Inspirecms-core/zipball/039879e71f57b2d519737b6150c5081df709b514",
+                "reference": "039879e71f57b2d519737b6150c5081df709b514",
                 "shasum": ""
             },
             "require": {
@@ -5725,11 +5725,11 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-07-08T06:54:23+00:00"
+            "time": "2025-07-08T10:24:40+00:00"
         },
         {
             "name": "solution-forest/inspirecms-support",
-            "version": "1.0.0",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/solutionforest/inspirecms-support.git",
