@@ -23,6 +23,9 @@ class MyCmsPanelProvider extends CmsPanelProvider
                     name: PanelsRenderHook::PAGE_START,
                     hook: fn () => Blade::render('@livewire(\'restore-system-countdown\')')
                 );
+            })
+            ->renderHook(PanelsRenderHook::HEAD_START, function () {
+                return view('components.gtag')->render();
             });
     }
 }
