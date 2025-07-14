@@ -13,6 +13,7 @@
     @if (isset($seo) && $seo instanceof \Illuminate\Contracts\Support\Htmlable)
         {{ $seo }}
     @endif
+    <x-gtag />
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
