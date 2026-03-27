@@ -6012,16 +6012,16 @@
         },
         {
             "name": "solution-forest/inspirecms-core",
-            "version": "4.0.6",
+            "version": "4.0.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/solutionforest/Inspirecms-core.git",
-                "reference": "e9cea9940ffa6e36aac0a9d009ba308f8df6da6d"
+                "reference": "39ffaa10d992637b2a716a5d539183079d29d37f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/solutionforest/Inspirecms-core/zipball/e9cea9940ffa6e36aac0a9d009ba308f8df6da6d",
-                "reference": "e9cea9940ffa6e36aac0a9d009ba308f8df6da6d",
+                "url": "https://api.github.com/repos/solutionforest/Inspirecms-core/zipball/39ffaa10d992637b2a716a5d539183079d29d37f",
+                "reference": "39ffaa10d992637b2a716a5d539183079d29d37f",
                 "shasum": ""
             },
             "require": {
@@ -6103,20 +6103,20 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-01-15T03:52:58+00:00"
+            "time": "2026-03-27T11:12:27+00:00"
         },
         {
             "name": "solution-forest/inspirecms-support",
-            "version": "4.0.6",
+            "version": "4.0.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/solutionforest/inspirecms-support.git",
-                "reference": "0053622ebf37f91c9abb441ce4a214acfeaddf1b"
+                "reference": "a072d9d03581e599e757f5e3441ffa79fca3720c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/solutionforest/inspirecms-support/zipball/0053622ebf37f91c9abb441ce4a214acfeaddf1b",
-                "reference": "0053622ebf37f91c9abb441ce4a214acfeaddf1b",
+                "url": "https://api.github.com/repos/solutionforest/inspirecms-support/zipball/a072d9d03581e599e757f5e3441ffa79fca3720c",
+                "reference": "a072d9d03581e599e757f5e3441ffa79fca3720c",
                 "shasum": ""
             },
             "require": {
@@ -6189,7 +6189,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-03-27T08:56:15+00:00"
+            "time": "2026-03-27T10:09:25+00:00"
         },
         {
             "name": "spatie/eloquent-sortable",
