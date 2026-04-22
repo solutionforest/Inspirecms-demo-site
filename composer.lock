@@ -6024,7 +6024,7 @@
         },
         {
             "name": "solution-forest/inspirecms-core",
-            "version": "5.x-dev",
+            "version": "5.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/solutionforest/Inspirecms-core.git",
@@ -6115,7 +6115,7 @@
         },
         {
             "name": "solution-forest/inspirecms-support",
-            "version": "5.x-dev",
+            "version": "5.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/solutionforest/inspirecms-support.git",
